@@ -1,3 +1,21 @@
-p {
-    background-color: #f1f1f1;
+body {
+    background-color: #f8f9fa!important;
 }
+
+border {
+    color:rgba(0,0,0,.5);
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0,0,0,.5);
+}
+.capt {
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    font-style: italic;
+    font-size: 10pt
+    
+}
+
