@@ -42,21 +42,18 @@
 
   <div class="container-fluid">
     <div class="p-3 mb-2 bg-white text-dark">
-      <div class="row justify-content-center">
+      <section class="row">
+        <div class="row justify-content-center">
           <div class="col-12 col-xl-6 col-lg-6 col-md-6">
             <h2>Summary: Latitude vs X</h2>
             <hr class="my-4">
             <p>
               <img src="assets/images/Fig1.png" class="float-left" alt="Responsive image" style="width:75%">
-              
-              
-              .col-md-6 .offset-md-2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex totam consectetur quis
-              quasi rerum quos quas magnam! Enim sunt, numquam, accusamus blanditiis necessitatibus in quam corporis
-              impedit
-              fuga, ex ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perferendis rem rerum
-              repudiandae sint, nihil voluptatem expedita eius nemo eum error facere id aliquam. Velit nostrum corporis
-              necessitatibus eligendi sunt! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nam at aspernatur porro, 
-              tenetur debitis officia ab aperiam vero, reiciendis eos amet nesciunt facere atque omnis iusto impedit saepe aut!
+              The goal of this project was to find weather data from all over the world and look for trends based on proximity to the equator.
+              First, I used numpy to randomly generate a list of longitudes and latitudes, then utlized citipy to find the nearest cities to the 
+              randomly generated latitudes and longitudes. Next, I performed API calls to get the current weather conditions in the list of 
+              cities at that exact moment. After some data cleaning, I converted the raw data into a dataframe and used matplotlib to plot 
+              latitude vs various weather conditions, all of which can be explored on this website. 
             </p>
           </div>
           <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-6">
@@ -85,7 +82,8 @@
                       </div>
             </div>
           </div>
-      </div>
+        </div>
+      </section>
     </div> 
   </div>
 
