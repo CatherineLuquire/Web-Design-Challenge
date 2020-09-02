@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Latitude vs Cloudiness</title>
+    <title>Latitude vs Humidity</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -40,44 +40,47 @@
   </nav>
 
   <div class="container-fluid">
-    <div class="p-3 mb-2 bg-white text-dark">
+    <section class="row">
       <div class="row justify-content-center">
-        <div class="col-xl-6 col-md-6 col-sm-12">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
           <h3>Humidity</h3>
             <hr class="my-4">
+              <img src="assets/images/Fig2.png" class="float-center" alt="Responsive image" style="width:100%">
               <p>
-                <img src="assets/images/Fig2.png" class="float-center" alt="Responsive image" style="width:100%">
-           .col-md-6 .offset-md-2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex totam consectetur quis quasi rerum quos quas magnam! Enim sunt, numquam, accusamus blanditiis necessitatibus in quam corporis impedit fuga, ex ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perferendis rem rerum repudiandae sint, nihil voluptatem expedita eius nemo eum error facere id aliquam. Velit nostrum corporis necessitatibus eligendi sunt!
+                There is no strong true correlation between latitude and humidity, but this plot does display that the least 
+                humid places are all around +/- 20 to +/- 40, give or take a few. My hypothesis is that most deserts are found
+                in this latitude range. 
               </p>
         </div>
-        <div class="col-xl-3 col-md-3 col-sm-6">
+        <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-6">
+          <div class="image-navigation">
           <h4>Visualizations</h4>
-            <hr class="my-4">
-            <div class="thumbnail">
-              <a href="visualization-temp.html">
-                <img src="assets/images/Fig1.png" class="float-left" alt="Responsive image" style="width: 100%">
+          <hr class="my-4">
+          <div class="thumbnail">
+            <a href="visualization-temp.html">
+              <img src="assets/images/Fig1.png" class="float-left" alt="Responsive image" style="width: 100%">
+              <div class="caption">
+                <p class="capt">Fig 1: Temperature</p>
+              </div>
+            <a href="visualization-humidity.html">
+                <img src="assets/images/Fig2.png" class="float-right" alt="Responsive image" style="width:100%">
                 <div class="caption">
-                  <p class="capt">Fig 1: Temperature</p>
+                  <p class="capt">Fig 2: Humidity</p>
                 </div>
-                <a href="visualization-humidity.html">
-                  <img src="assets/images/Fig2.png" class="float-right" alt="Responsive image" style="width:100%">
+            <a href="visualization-cloudiness.html">
+                  <img src="assets/images/Fig3.png" class="float-left" alt="Responsive image" style="width:100%">
                   <div class="caption">
-                    <p class="capt">Fig 2: Humidity</p>
+                    <p class="capt">Fig 3: Cloudiness</p>
                   </div>
-                  <a href="visualization-cloudiness.html">
-                    <img src="assets/images/Fig3.png" class="float-left" alt="Responsive image" style="width:100%">
+            <a href="visualization-windspeed.html">
+                    <img src="assets/images/Fig4.png" class="float-right" alt="Responsive image" style="width:100%">
                     <div class="caption">
-                      <p class="capt">Fig 3: Cloudiness</p>
+                      <p class="capt">Fig 4: Wind Speed</p>
                     </div>
-                    <a href="visualization-windspeed.html">
-                      <img src="assets/images/Fig4.png" class="float-right" alt="Responsive image" style="width:100%">
-                      <div class="caption">
-                        <p class="capt">Fig 4: Wind Speed</p>
-                      </div>
-            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 
 

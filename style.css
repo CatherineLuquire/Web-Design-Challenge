@@ -1,11 +1,3 @@
-body {
-    background-color: #f8f9fa!important;
-}
-
-border {
-    color:rgba(0,0,0,.5);
-}
-
 h4 {
     text-align: center;
     color: rgba(0,0,0,.5);
@@ -15,5 +7,8 @@ h4 {
     text-align: center;
     font-style: italic;
     font-size: 10pt
-    
+}
+
+.row {
+    background-color: white
 }
